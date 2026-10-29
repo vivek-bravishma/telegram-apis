@@ -1,0 +1,13 @@
+node_modules/
+dist/
+logs/
+*.log
+
+# secrets
+.env
+.env.*
+!.env.example
+
+# runtime artifacts
+storage/uploads/*
+!storage/uploads/.gitkeep
